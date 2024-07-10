@@ -16,7 +16,7 @@ Then send a test event using curl:
 
 ```bash
 curl -X POST http://localhost:3000/send-event -H "Content-Type: application/json" -d '{
-  "detail-type": "myDetailType",
+  "detailType": "myDetailType",
   "source": "myApp",
   "detail": {
     "key1": "value1",
