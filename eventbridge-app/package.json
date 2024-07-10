@@ -1,0 +1,19 @@
+{
+  "name": "eventbridge-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-cloudwatch-logs": "^3.613.0",
+    "@aws-sdk/client-eventbridge": "^3.613.0",
+    "@aws-sdk/client-sts": "^3.613.0",
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2"
+  }
+}
